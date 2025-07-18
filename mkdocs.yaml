@@ -1,0 +1,12 @@
+site_name: 'python-app-rhdh'
+site_description: 'Main documentation for the python-app-rhdh'
+repo_url: https://github.com/DaggupatiPavan-1/python-app-rhdh
+edit_uri: edit/main/docs
+
+plugins:
+  - techdocs-core
+
+# For sidebar navigation on https://backstage.io/, see `microsite/sidebars.json`
+nav:
+  - Overview:
+      - Getting started: 'docs/index.md'
