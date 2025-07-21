@@ -1,8 +1,9 @@
 Setup dynamic plugin in redhat locally
 ### ~/rhdh/dynamic-plugins/wrappers/backstage-community-plugin-*/
 ```
-yarn build
+yarn
 yarn tsc
+yarn build
 ```
 ```
 pkg=./
