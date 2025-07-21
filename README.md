@@ -1,10 +1,11 @@
 Setup dynamic plugin in redhat locally
 ### ~/rhdh/dynamic-plugins/wrappers/backstage-community-plugin-*/
 ```
-cd ~/rhdh/dynamic-plugins/wrappers/backstage-community-plugin-*/ 
-yarn
 cd ~/rhdh/dynamic-plugins/wrappers/
 yarn build
+cd ~/rhdh/dynamic-plugins/wrappers/backstage-community-plugin-*/ 
+yarn
+yarn export-dynamic
 ```
 ```
 pkg=./
