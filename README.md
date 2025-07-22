@@ -29,3 +29,16 @@ nano dynamic-plugins.default.yaml
 ```
 search the plugin make to false
 restart the server once again
+
+===========================================
+env values load 
+pavan@PavanKumar:~/rhdh$ cat packages/backend/src/index.ts  | head -2
+require('dotenv').config();
+
+add at 1st line to accept env values
+
+pavan@PavanKumar:~/rhdh/packages/backend$ cat .env
+AUTH_GITHUB_CLIENT_ID=OvaQar3
+GITHUB_TOKEN=github_pat_11AXJCWQAXsA6Lt
+AUTH_GITHUB_CLIENT_SECRET=651771756f669bca
+pavan@PavanKumar:~/rhdh/packages/backend$
